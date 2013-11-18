@@ -1,0 +1,33 @@
+@import "bourbon";
+@import "neat";
+@import "bitters/bitters";
+
+html {
+  background: #eeeeee;
+}
+body {
+  background: #ffffff;
+  margin:2em;
+  padding:2em;
+}
+
+#header {
+  margin-bottom: 1em;
+}
+#overlay.visible {
+  background: #ffffff;
+  border: 1px solid #666666;
+  box-shadow: 1px 1px 20px #DDDDDD;
+  display: block;
+  left: 25%;
+  padding:2em;
+  position: fixed;
+  top: 30%;
+  width:50%;
+}
+
+#client-name-inner, #brand-inner {
+  select, a {
+    display: inline-block;
+  }
+}
